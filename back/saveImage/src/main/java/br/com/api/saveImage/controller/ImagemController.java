@@ -30,6 +30,7 @@ public class ImagemController {
         return ResponseEntity.ok().body(imagemDTO);
     }
 
+    //remover essa bagaça daqui
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/{id}")
     public ResponseEntity<?> recuperarImagem(@PathVariable Long id) {
